@@ -1,0 +1,42 @@
+1. Loading and Displaying the Image
+Load an image with OpenCV and show it on the screen.
+Close the image when the user presses a key.
+
+2. Convert Image to Grayscale
+Convert a color image to grayscale and show both color and grayscale images side by side.
+
+3. Show Video Source
+Receive the image from the webcam and display it on the screen in real time.
+Stop the image when the user presses a key.
+
+4. Save Image
+Load an image, apply an operation (e.g. grayscale) to it and save the result to a file.
+
+5. Draw Geometric Shapes
+Create a blank image (for example, a black background) and overlay it:
+Line
+Rectangle
+Apartment
+Add text.
+
+6. Mirror in Live View
+Mirror the image from the webcam horizontally (mirror effect) and display it on the screen.
+
+7. Simple Edge Detection
+Apply the Canny edge detection algorithm on an image and show the edges.
+
+8. Thresholding Process
+Convert an image to grayscale and apply different thresholding methods:
+Fixed thresholding (cv2.threshold).
+Adaptive thresholding (cv2.adaptiveThreshold).
+
+9. Color Extraction
+Filter a user selected color (for example, red) from the image and show only that color.
+You can do this with the cv2.inRange function.
+
+10. Resize the Image
+Scale an image to different sizes (for example, 50% reduction, 200% enlargement).
+Show the image in a window.
+
+11. Rotate an Image
+Rotate an image by a certain degree (for example, 90° or 45°) and show the result.

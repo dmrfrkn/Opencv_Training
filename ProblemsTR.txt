@@ -1,0 +1,43 @@
+1. Görüntüyü Yükleme ve Gösterme
+Bir görüntüyü OpenCV ile yükle ve ekranda göster.
+Kullanıcı bir tuşa bastığında görüntüyü kapat.
+
+2. Görüntüyü Gri Tonlamaya Çevir
+Bir renkli görüntüyü gri tonlamaya çevir ve hem renkli hem de gri tonlama görüntüyü yan yana göster.
+
+3. Video Kaynağını Göster
+Web kamerasından gelen görüntüyü al ve gerçek zamanlı olarak ekranda göster.
+Kullanıcı bir tuşa bastığında görüntüyü durdur.
+
+4. Görüntüyü Kaydet
+Bir görüntüyü yükle, üzerine bir işlem (örneğin, gri tonlama) uygula ve sonucu bir dosyaya kaydet.
+
+5. Geometrik Şekiller Çizme
+Boş bir görüntü oluştur (örneğin, siyah bir arka plan) ve üzerine:
+Çizgi
+Dikdörtgen
+Daire
+Metin ekle.
+
+6. Canlı Görüntüde Aynalama
+Web kamerasından gelen görüntüyü yatay olarak aynala (mirror efekti) ve ekranda göster.
+
+7. Basit Kenar Tespiti
+Bir görüntüde Canny kenar tespit algoritmasını uygula ve kenarları göster.
+
+8. Eşikleme İşlemi
+Bir görüntüyü gri tonlamaya çevir ve farklı eşikleme yöntemlerini uygula:
+Sabit eşikleme (cv2.threshold).
+Adaptif eşikleme (cv2.adaptiveThreshold).
+
+9. Renk Ayıklama
+Kullanıcının seçtiği bir rengi (örneğin, kırmızı) görüntüden filtrele ve sadece o rengi göster.
+Bunu cv2.inRange fonksiyonuyla yapabilirsin.
+
+10. Görüntüyü Yeniden Boyutlandırma
+Bir görüntüyü farklı boyutlara ölçeklendir (örneğin, %50 küçültme, %200 büyütme).
+Görüntüyü bir pencere içinde göster.
+
+11. Görüntüyü Döndürme
+Bir görüntüyü belirli bir derece (örneğin, 90° veya 45°) döndür ve sonucu göster.
+
